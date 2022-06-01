@@ -1,0 +1,13 @@
+@import 'breakpoints';
+@import 'cursor';
+@import 'fonts';
+@import 'variables';
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+::selection {
+  background: #ffe76d82;
+}

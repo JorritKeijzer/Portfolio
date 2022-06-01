@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  height: 10rem;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    display: inline;
+    font-size: 1.6rem;
+  }
+  a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.6rem;
+    &:hover {
+      text-decoration: underline;
+      color: var(--tertiary-text-color);
+    }
+  }
+}

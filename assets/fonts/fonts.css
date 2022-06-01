@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url(HelveticaNowDisplay-Regular.otf) format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url(HelveticaNowDisplay-Light.otf) format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url(HelveticaNowDisplay-Medium.otf) format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url(HelveticaNowDisplay-Bold.otf) format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url(HelveticaNowDisplay-ExtraBold.otf) format('opentype');
+  font-weight: 800;
+}

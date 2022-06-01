@@ -1,0 +1,51 @@
+@import '../fonts/fonts.css';
+
+html {
+  font-size: 10px;
+  font-family: var(--font-family);
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 17.2rem;
+  line-height: 17.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 6.4rem;
+  line-height: auto;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.9rem;
+  line-height: auto;
+  .large {
+    font-size: 3.2rem;
+    font-family: 5.2rem;
+  }
+  .small {
+    font-size: 1.4rem;
+    color: var(--secondary-font-family);
+  }
+  .code {
+    font-family: var(--secondary-font-family);
+  }
+}
+
+a {
+  font-size: 1.9rem;
+  line-height: auto;
+  text-decoration: underline;
+  color: var(--tertiary-text-color);
+  .large {
+    font-size: 3.2rem;
+    font-family: 5.2rem;
+  }
+  .small {
+    font-size: 1.4rem;
+    color: var(--secondary-font-family);
+  }
+}

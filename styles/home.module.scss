@@ -1,0 +1,30 @@
+.section {
+  h1 {
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+  }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+.about {
+  font-size: 3.2rem !important;
+  font-weight: 400;
+  font-weight: 5.2rem !important;
+  margin-bottom: 0;
+  margin: 10rem 0;
+
+  span {
+    font-family: var(--secondary-font-family);
+    font-size: 1.4rem;
+    margin-right: 8rem;
+    display: inline-block;
+    color: var(--secondary-text-color);
+  }
+
+  a {
+    font-size: 3.2rem !important;
+  }
+}

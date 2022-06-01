@@ -1,0 +1,11 @@
+@mixin isDesktop() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin isMobile() {
+  @media (max-width: 768px) {
+    @content;
+  }
+}

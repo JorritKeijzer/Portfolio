@@ -1,0 +1,28 @@
+body {
+  cursor: none;
+  @include isMobile() {
+    cursor: auto;
+  }
+}
+
+.cursor {
+  @include isDesktop() {
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid var(--tertiary-text-color);
+    transition-timing-function: ease-in-out;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: fixed;
+    pointer-events: none;
+    z-index: 99;
+    transition: 80ms;
+    transform: translate(-50%, -50%);
+    &.full {
+      height: 10rem;
+      width: 10rem;
+      opacity: 1;
+      transition: 100ms;
+    }
+  }
+}
